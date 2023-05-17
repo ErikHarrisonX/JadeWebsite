@@ -1,0 +1,22 @@
+.Button {
+    border: 2px black;
+    color: rgb(4, 75, 138);
+    padding: 0 0.25rem auto auto;
+    text-decoration: underline; 
+    font-size: 2.7rem;
+    height: 200px;
+    height: 200px;
+    margin: 0 -0.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.Button:hover {
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    color: rgb(212, 13, 206);
+}
+
+body {
+    display:grid;
+    height: 100vh;
+    place-items: center;
+}

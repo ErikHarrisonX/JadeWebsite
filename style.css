@@ -1,0 +1,144 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+    font-size: 1.65 rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#Main_Header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.title {
+    font-size: 1.45 rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Skill {
+    font-size: 1.4 rem;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:lightskyblue;
+    width:fit-content;
+    height:auto;
+    margin-left: 1em;
+}
+
+#allskills {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+}
+
+.Programmings {
+    font-size: 1.4 rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    width: fit-content;
+    height: auto;
+    margin-left: 1em;
+    text-align: left;
+}
+
+#prog {
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+}
+
+.Languages {
+    font-size: 1.4 rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    width: fit-content;
+    height: auto;
+    margin-left: 1em;
+}
+
+#language {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+}
+
+#Job_titles {
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  background-color: palegreen;
+  width: 250px;
+  height: 20px;
+  padding: 15px;
+  border: 2px solid mediumpurple;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 15px;
+}
+
+#School {
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  background-color: cyan;
+  width: 200px;
+  height: 20px;
+  padding: 15px;
+  border: 2px solid royalblue;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 15px;
+}
+
+#skillz {
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  background-color: tomato;
+  width: 150px;
+  height: 20px;
+  padding: 15px;
+  border: 2px solid rebeccapurple;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 15px;
+}
+
+#lifestuff {
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  background-color:magenta;
+  width: 280px;
+  height: 20px;
+  padding: 15px;
+  border: 2px solid black;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 15px;
+}
+
+.button {
+  background-color: beige;
+    border: 2px black;
+    color: rgb(4, 75, 138);
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 2.7rem;
+    margin: 4px 2px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.button:hover{
+  box-shadow: inset 600px 0 0 0 #54b3d6;
+  color: rgb(212, 13, 206);
+}
